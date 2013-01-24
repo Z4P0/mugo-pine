@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Tables</title>
+  <meta name="description" content="nevermind">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="tables">
+<div class="container">
+  <header class="wrapper">
+      <h1>tables</h1>
+  </header>
+
+  <section class="content">
+    <div class="wrapper">
+      <article>
+      	<div class="controls">
+      		<span>League: </span>
+      		<select id="league">
+      			<option value="NASL">NASL</option>
+      			<option value="USL-Pro">USL-Pro</option>
+      		</select>
+      		<span>Year: </span>
+      		<select id="year">
+      			<option value="2012">2012</option>
+      			<option value="2011">2011</option>
+      		</select>
+      	</div>
+		    <table>
+		    	<caption align="bottom"></caption>
+		    	<thead>
+		    		<tr>
+			    		<th>Rank</th>
+			    		<th>Team</th>
+			    		<th>Stadium</th>
+			    		<th>Location</th>
+			    		<th>Distance</th>
+			    		<th>Time</th>
+			    		<th>Attendance</th>
+			    	</tr>
+		    	</thead>
+		    	<tfoot>
+		    		<tr>
+			    		<td>this</td>
+			    		<td>is</td>
+			    		<td>at</td>
+			    	</tr>
+		    	</tfoot>
+		    	<tbody>
+		    	</tbody>
+		    </table>
+
+<!-- 
+
+<tr>
+	<td>1</td>
+	<td>San Antonio</td>
+	<td>Heroes Stadium</td>
+	<td>San Antonio, TX</td>
+	<td>13.2</td>
+	<td>20</td>
+	<td>4505</td>
+</tr>
+
+team : "San Antonio",
+standing : "1",
+stadium : "stadium",
+location : "city",
+distance : "miles",
+time : "minutes",
+attendance : "9176"
+
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+
+
+ -->
+      </article>
+    </div>
+  </section>
+
+  <footer class="wrapper">
+  </footer>
+</div>
+<script src="attendance.js"></script>
+</body>
+</html>
