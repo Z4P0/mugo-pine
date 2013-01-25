@@ -57,6 +57,12 @@ body {
 p, .controls {
   margin: 0 0 1em;
 }
+
+
+/* table styles */
+th {
+  cursor: pointer;
+}
 tr {
   text-align: center;
 }
