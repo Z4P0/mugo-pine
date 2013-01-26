@@ -1,96 +1,4 @@
-NASL : {
-	San Antonio : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Tampa Bay : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Puerto Rico : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Carolina : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Fort Lauderdale : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Minnesota : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Atlanta : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	},
-	Edmonton : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}	
-	}
-}.
 
-USL-Pro : {
-	Puerto Rico Islanders : {
-		attedance : {
-			
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
 	2012 Final Standings
 1. San Antonio
 2. Tampa Bay
@@ -112,188 +20,8 @@ USL-Pro : {
 9. Dayton
 10. Pittsburgh
 11. Antigua
-	},
-	Tampa Bay Rowdies : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Rochester Rhinos : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Orlando City : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Wilmington Hammerheads : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Carolina Railhawks : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Harrisburg City Islanders : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Edmonton FC : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Los Angeles Blues : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Richmond Kickers : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Antigua Barracuda FC : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Fort Lauderdale Strikers : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Pittsburgh Riverhounds : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Charlotte Eagles : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	San Antonio Scorpions : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Dayton Dutch Lions : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Charleston Battery : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	Atlanta Silverbacks : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	},
-	NSC Minnesota Stars : {
-		attedance : {
-		
-		},
-		rank : {
-			
-		},
-		location: {},
-		distance : {}
-	}
-}
+
+
 
 DISTANCE (only main venues):
 .4 (N) PR, Bayamon, Bayamon Soccer Complex, .4 mi & 2 min
@@ -315,6 +43,29 @@ DISTANCE (only main venues):
 15.3 (U) Charleston, Blackbaud Stadium, 15.3 mi & 20 min
 15.7 (N) Atlanta, Silverbacks Pack, 15.7 mi & 21 min
 17.5 (N) Minnesota, Minneapolis, NSC (Blaine) 17.5 mi & 23 min
+
+
+
+
+===================================
+
+DISTANCE (only main venues):
+5.1 (U) Antigua, Sir Vivian Richards Stadium, 5.1 mi & 14 min
+15.3 (U) Charleston, Blackbaud Stadium, 15.3 mi & 20 min
+8.7 (U) Charlotte, Restart Field at Charlotte Christian HS Stadium, 8.7 mi & 21 min
+14.8 (U) Dayton, Bellbrook High School, 14.8 mi & 23 min
+2.2 (U) Harrisburg, Skyline Sports Complex, 2.2 mi & 7 min
+3.3 (U) Los Angeles, Cal State Fullerton, 3.3 mi & 8 min
+1.9 (U) Orlando, Citrus Bowl, 1.9 mi & 7 min
+8.7 (U) Pittsburgh, Chartiers Valley High School Stadium, 8.7 mi & 16 min
+4.7 (U) Richmond, City Stadium, 4.7 mi & 10 min
+1.8 (U) Rochester, Sahlen's Stadium, 1.4 mi & 6 min
+2 (U) Wilmington, Legion Stadium, 2 mi & 8 min
+
+===================================
+
+
+
 
 TIME (only main venues):
 2 (N) PR, Bayamon, Bayamon Soccer Complex, .4 mi & 2 min
