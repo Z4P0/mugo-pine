@@ -12,18 +12,21 @@ window.document.body.onload = function() {
 	}
 
 	var table = document.getElementsByTagName("tbody")[0];
-	for(year in attendanceData) {
-		// console.log(attendanceData[year]);
-		for(league in attendanceData[year]) {
-			for(team in attendanceData[year][league]) {
-				// console.log(attendanceData[year][league][team]);
-				var tr = element("tr");
-				for(stats in attendanceData[year][league][team]) {
+	for(var league in attendanceData) {
+		for(var team in attendanceData[league]) {
+			// console.log(team);
+			// console.log(attendanceData[league][team]);
+			for(var stats in attendanceData[league][team]) {
+				console.log(stats);
+				console.log(attendanceData[league][team][stats]);
+				// if (stats === "") {}
+				// var tr = element("tr");
+				// for(stats in attendanceData[year][league][team]) {
 					// console.log(stats);
-					tr.appendChild(element("td", attendanceData[year][league][team][stats]));
+					// tr.appendChild(element("td", attendanceData[year][league][team][stats]));
 					// console.log(attendanceData[year][league][team][stats]);
-				}
-				table.appendChild(tr);
+				// }
+				// table.appendChild(tr);
 			}
 		}
 	}
@@ -56,8 +59,6 @@ function sortTable(e) {
 
 
 var attendanceData = {
-	// _2012 : {
-	// },
 	NASL : {
 		Atlanta : {
 			team : "Atlanta",
@@ -77,7 +78,7 @@ var attendanceData = {
 		Carolina : {
 			team : "Carolina",
 			standing : {
-				_2012 : "0",
+				_2012 : "4",
 				_2011 : "-"
 			},
 			stadium : "Wakemed Park",
@@ -92,108 +93,258 @@ var attendanceData = {
 		Edmonton : {
 			team : "Edmonton",
 			standing : {
-				_2012 : "0",
+				_2012 : "8",
 				_2011 : "-"
-			}"8",
+			},
 			stadium : "Clarke Stadium",
 			location : "Edmonton",
 			distance : "2.9",
 			time : "11",
 			attendance : {
-				_2012 : "0",
+				_2012 : "1492",
 				_2011 : "-"
-			} "1492"
+			}
 		},
 		Ft_Lauderdale : {
 			team : "Ft. Lauderdale",
 			standing : {
-				_2012 : "0",
+				_2012 : "5",
 				_2011 : "-"
-			}"5",
+			},
 			stadium : "Lockhart Stadium",
 			location : "Ft. Lauderdale, FL",
 			distance : "7.4",
 			time : "13",
 			attendance : {
-				_2012 : "0",
+				_2012 : "3609",
 				_2011 : "-"
-			} "3609"
+			}
 		},
 		Minnesota : {
 			team : "Minnesota",
 			standing : {
-				_2012 : "0",
+				_2012 : "6",
 				_2011 : "-"
-			}"6",
+			},
 			stadium : "NSC (Blaine)",
 			location : "Minneapolis, MN",
 			distance : "17.5",
 			time : "23",
 			attendance : {
-				_2012 : "0",
+				_2012 : "2796",
 				_2011 : "-"
-			} "2796"
+			}
 		},
 		Puerto_Rico : {
 			team : "Puerto Rico",
 			standing : {
-				_2012 : "0",
+				_2012 : "3",
 				_2011 : "-"
-			}"3",
+			},
 			stadium : "Bayamon, PR",
 			location : "Bayamon Soccer Complex",
 			distance : ".4",
 			time : "2",
 			attendance : {
-				_2012 : "0",
+				_2012 : "1864",
 				_2011 : "-"
-			} "1864"
+			}
 		},
 		San_Antonio : {
 			team : "San Antonio",
 			standing : {
-				_2012 : "0",
+				_2012 : "1",
 				_2011 : "-"
-			}"1",
+			},
 			stadium : "Heroes Stadium",
 			location : "San Antonio, TX",
 			distance : "13.2",
 			time : "20",
 			attendance : {
-				_2012 : "0",
+				_2012 : "9176",
 				_2011 : "-"
-			} "9176"
+			}
 		},
 		Tampa_Bay : {
 			team : "Tampa Bay",
 			standing : {
-				_2012 : "0",
+				_2012 : "2",
 				_2011 : "-"
-			}"2",
+			},
 			stadium : "Al Lang at Progress Energy Park",
 			location : "St. Petersburg, FL",
 			distance : ".7",
 			time : "4",
 			attendance : {
-				_2012 : "0",
+				_2012 : "3116",
 				_2011 : "-"
-			} "3116"
+			}
 		}
 	},
 	USL_Pro : {
-		team : {
-			team : "name",
+		Antigua : {
+			team : "Antigua Barracuda",
+			standing : {
+				_2012 : "11",
+				_2011 : "0"
+			},
+			stadium : "Sir Vivian Richards Stadium",
+			location : "Antigua",
+			distance : "5.1",
+			time : "14",
+			attendance : {
+				_2012 : "818 **",
+				_2011 : "1189"
+			}
+		},
+		Charleston : {
+			team : "Charleston Battery",
+			standing : {
+				_2012 : "3",
+				_2011 : "0"
+			},
+			stadium : "Blackbaud Stadium",
+			location : "Charleston",
+			distance : "15.3",
+			time : "20",
+			attendance : {
+				_2012 : "3947",
+				_2011 : "3501"
+			}
+		},
+		Charlotte : {
+			team : "Charlotte Eagles",
+			standing : {
+				_2012 : "7",
+				_2011 : "0"
+			},
+			stadium : "Restart Field at Charlotte Christian HS Stadium",
+			location : "city",
+			distance : "8.7",
+			time : "21",
+			attendance : {
+				_2012 : "806 **",
+				_2011 : "1022"
+			}
+		},
+		Dayton : {
+			team : "Dayton",
+			standing : {
+				_2012 : "9",
+				_2011 : "0"
+			},
+			stadium : "Bellbrook High School",
+			location : "city",
+			distance : "14.8",
+			time : "23",
+			attendance : {
+				_2012 : "722 *",
+				_2011 : "661"
+			}
+		},
+		Harrisburg : {
+			team : "Harrisburg",
+			standing : {
+				_2012 : "6",
+				_2011 : "0"
+			},
+			stadium : "Skyline Sports Complex",
+			location : "city",
+			distance : "2.2",
+			time : "7",
+			attendance : {
+				_2012 : "1411 **",
+				_2011 : "1406"
+			}
+		},
+		Los_Angeles : {
+			team : "Los Angeles",
+			standing : {
+				_2012 : "8",
+				_2011 : "0"
+			},
+			stadium : "Cal State Fullerton",
+			location : "city",
+			distance : "3.3",
+			time : "8",
+			attendance : {
+				_2012 : "666 *",
+				_2011 : "440"
+			}
+		},
+		Orlando : {
+			team : "Orlando",
+			standing : {
+				_2012 : "1",
+				_2011 : "0"
+			},
+			stadium : "Citrus Bowl",
+			location : "city",
+			distance : "1.9",
+			time : "7",
+			attendance : {
+				_2012 : "6606",
+				_2011 : "5415"
+			}
+		},
+		Pittsburgh : {
+			team : "Pittsburgh",
+			standing : {
+				_2012 : "10",
+				_2011 : "0"
+			},
+			stadium : "Chartiers Valley High School Stadium",
+			location : "city",
+			distance : "8.7",
+			time : "16",
+			attendance : {
+				_2012 : "984",
+				_2011 : "1127"
+			}
+		},
+		Richmond : {
+			team : "Richmond",
+			standing : {
+				_2012 : "4",
+				_2011 : "0"
+			},
+			stadium : "City Stadium",
+			location : "city",
+			distance : "4.7",
+			time : "10",
+			attendance : {
+				_2012 : "2379",
+				_2011 : "1986"
+			}
+		},
+		Rochester : {
+			team : "Rochester Rhinos",
+			standing : {
+				_2012 : "2",
+				_2011 : "0"
+			},
+			stadium : "Sahlen's Stadium",
+			location : "Rochester",
+			distance : "1.4",
+			time : "6",
+			attendance : {
+				_2012 : "6265",
+				_2011 : "5139"
+			}
+		},
+		Wilmington : {
+			team : "Wilmington Hammerheads",
 			standing : {
 				_2012 : "0",
 				_2011 : "0"
 			},
-			stadium : "stadium",
-			location : "city",
-			distance : "miles",
-			time : "minutes",
+			stadium : "Legion Stadium",
+			location : "Wilmington",
+			distance : "2",
+			time : "8",
 			attendance : {
-				_2012 : "4505",
-				_2011 : "0000"
+				_2012 : "4265",
+				_2011 : "4053"
 			}
 		}
 	}
